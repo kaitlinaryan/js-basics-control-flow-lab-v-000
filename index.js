@@ -10,7 +10,6 @@ function scuberGreetingForFeet (feet) {
 }
 
 
-let ternaryCheckCity;
-if {
-city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
+function ternaryCheckCity (city) {
+if city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
 }
