@@ -4,6 +4,12 @@ if (<= 400){
   scuberGreetingForFeet = 'free'
 } else if (>=2000){
   scuberGreetingForFeet = '$30'
-} else (>=2500){
+} else if (>=2500){
   scuberGreetingForFeet = 'not allowed'
 }
+
+if city = NYC
+'Ok, sounds good.'
+
+if != NYC
+'No go.'
