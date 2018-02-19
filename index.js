@@ -8,8 +8,5 @@ if (<= 400){
   scuberGreetingForFeet = 'not allowed'
 }
 
-if city = NYC
-'Ok, sounds good.'
 
-if != NYC
-'No go.'
+if city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
