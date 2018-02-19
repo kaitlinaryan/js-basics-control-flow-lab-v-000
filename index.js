@@ -1,12 +1,16 @@
 // Write your code in this file!
-let scuberGreetingForFeet;
-if (<= 400){
-  scuberGreetingForFeet = 'free'
-} else if (>=2000){
-  scuberGreetingForFeet = '$30'
-} else if (>=2500){
-  scuberGreetingForFeet = 'not allowed'
+function scuberGreetingForFeet (feet) {
+if (feet <= 400){
+  return 'This one is on me!';
+} else if (1999 < feet && feet <2500) {
+  return "I will gladly take your thirty bucks.";
+} else {
+  return "No can do.";
+}
 }
 
 
-if city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
+let ternaryCheckCity;
+if {
+city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
+}
